@@ -1,14 +1,42 @@
 # GMK67-Config
 
-## Keyboard specifications
+Configuration files and color schemes for the GMK67 ZUOYO keyboard - a compact 67% mechanical keyboard with RGB lighting.
 
- This keyboard features a **67% size** format along with **66 buttons** and 1 knob used for **volume control**.  
- The pcb is really easy to swap and it has a 3500mAh battery. On full charge, it typically lasts around **12-15 hours**.
- I also put white keycaps in **japanese style** on it.
+## Keyboard Specifications
 
-## Customization
+- **Layout**: 67% compact format (66 keys + 1 rotary knob)
+- **Connectivity**: Bluetooth and USB-C wired modes
+- **Battery**: 3500mAh (approximately 12-15 hours of usage on full charge)
+- **RGB**: Fully customizable per-key RGB lighting
+- **Rotary Knob**: Programmable knob (default: volume control)
+- **Keycaps**: White PBT keycaps with Japanese sublegends
+- **Hot-swappable**: Easy PCB and switch replacement
 
-The one problem that I encountered was with obtaining the software for it.  
-Since it is not a very popular keyboard, it required some searching but I found a GitHub Gist with the full digital version of the original paper version.
+## Images
 
-## Soon, I will start uploading my color schemes in XML format for the GMK67 ZUOYO keyboard
+I will add preview images here
+
+## Software
+
+The GMK67 requires specific software for customization which isn't widely available. After some searching, I found a GitHub Gist with functional version that allows for full RGB and key mapping customization. 
+
+**Gist link:** [GMK67 Manual](https://gist.github.com/Joao-Peterson/f70257a08c6c2ba1dc353954bef9fe65) 
+
+## Color Schemes
+
+This repository contains custom XML color profiles compatible with the GMK67 ZUOYO keyboard software. All schemes are located in the `/static` directory.
+
+
+*More color schemes coming soon!*
+
+## Usage Instructions
+
+1. Download the GMK67 configuration software
+2. Connect your keyboard via USB
+3. Open the software and go to the "Custom" lighting section
+4. Click "Import" and select the desired XML file from this repository
+5. Click "Apply" to save the configuration to your keyboard
+
+## Contributing
+
+Contributions are welcome! If you've created a great color scheme for the GMK67, feel free to submit a PR with your XML file added to the `/static` directory.
